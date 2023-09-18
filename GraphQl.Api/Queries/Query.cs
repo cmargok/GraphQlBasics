@@ -6,7 +6,7 @@ namespace GraphQl.Api.Queries
     {
         public Book GetBook() =>
             new()
-            {
+            { 
                 Title = "C# in depth.",
                 Author = new Author
                 {
